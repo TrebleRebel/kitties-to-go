@@ -1,0 +1,29 @@
+aside {
+    float: right;
+    width: 350px;
+}
+
+h3 {
+    color: rgb(19, 19, 19);
+    font-family: sans-serif;
+}
+
+p {
+    color: rgb(19, 19, 19);
+    font-family: sans-serif;
+}
+
+a {
+    color: rgb(0, 160, 209);
+    font-family: sans-serif;
+}
+
+figure {
+    margin-left: 0px;
+}
+
+figcaption {
+    color: rgb(19, 19, 19);
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
