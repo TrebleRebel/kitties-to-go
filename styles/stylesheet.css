@@ -4,22 +4,31 @@ header {
     font-family: sans-serif;
     padding: 25px;
     padding-bottom: 50px;
-    padding-left: 100px;
+    padding-left: 10%;
     padding-right: 650px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    left: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.maincontainer {
+    display: flex;
+    gap: 5rem;
+    margin-top: 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
 }
 
 nav {
-
     background-color: rgb(224, 224, 224);
     text-align: center;
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right: 500px;
     position: absolute;
-    top: 200px;
+    top: 185px;
     right: 0px;
     left: 0px;
     display: flex;
@@ -31,12 +40,31 @@ nav {
     color: rgb(41, 41, 41);
     font-family: sans-serif;
     font-weight: bold;
+    padding-left: 10%
+}
+
+.mainheader {
+    color: rgb(0, 160, 209);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.quote {
+    color: rgb(0, 160, 209);
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.jeremy {
+    color: rgb(0, 160, 209);
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 5px;
 }
 
 aside {
     float: right;
     width: 350px;
-    margin-top: 250px;
 }
 
 h2 {
@@ -74,10 +102,8 @@ footer {
     background-color: rgb(54, 54, 54);
     font-family: sans-serif;
     font-weight: bold;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+    position: relative;
+    bottom: 0;
 }
 
 .container {
