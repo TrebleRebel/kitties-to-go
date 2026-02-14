@@ -131,3 +131,24 @@ footer {
     margin: auto;
     width: 50%;
 }
+
+/*KITTY PROFILES*/
+.profilecontainer {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-left: 10%;
+
+}
+
+.profiles {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.info {
+    color: rgb(41, 41, 41);
+    font-family: sans-serif;
+        padding-right: 15%
+}
