@@ -27,6 +27,17 @@ nav {
     font-weight: bold;
 }
 
+.hidden {
+    color: white;
+    position: relative;
+    left: -10000px;
+    top: auto;
+}
+
+.hidden:focus {
+    left: 0;
+}
+
 /*MAIN BODY*/
 body {
     margin: 0;
