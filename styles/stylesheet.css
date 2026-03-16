@@ -25,6 +25,7 @@ nav {
     color: rgb(41, 41, 41);
     font-family: sans-serif;
     font-weight: bold;
+    padding: .75rem;
 }
 
 .hidden {
@@ -63,6 +64,7 @@ a {
     color: rgb(0, 160, 209);
     font-family: sans-serif;
     text-decoration: none;
+    padding: .5rem;
 }
 
 figure {
