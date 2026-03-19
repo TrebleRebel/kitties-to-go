@@ -77,13 +77,15 @@ figcaption {
     margin-bottom: 15px;
 }
 
-.maincontainer {
-    display: flex;
-    gap: 5rem;
+.main-grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-right: 2rem;
     margin-top: 2rem;
     padding-left: 10%;
-    padding-right: 10%;
     padding-bottom: 5%;
+    gap: 5rem;
+    justify-content: center;
 }
 
 .mainheader {
@@ -143,18 +145,19 @@ footer {
 }
 
 .footerimg {
-    display: block;
+    display: grid;
     margin: auto;
     width: 50%;
 }
 
 /*KITTY PROFILES*/
-.profilecontainer {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 1rem;
     margin-bottom: 2rem;
     padding-left: 10%;
+    place-items: center;
 
 }
 
@@ -166,5 +169,17 @@ footer {
 .info {
     color: rgb(41, 41, 41);
     font-family: sans-serif;
-        padding-right: 15%
+    padding-right: 15%
+}
+
+@media screen and (max-width: 680px) {
+    .smokes {
+        display: grid;
+        margin: auto;
+        width: 50%;
+    }
+
+    .info {
+        text-align: center;
+    }
 }
