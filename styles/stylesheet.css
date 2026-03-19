@@ -182,4 +182,11 @@ footer {
     .info {
         text-align: center;
     }
+
+    .footerimg {
+        width: auto;
+        height: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
